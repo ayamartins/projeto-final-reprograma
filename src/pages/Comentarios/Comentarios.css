@@ -1,0 +1,153 @@
+.list {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 70px 60px;
+    margin: 0 auto;
+    }
+    
+    h2 {
+      color: rgb(201, 191, 191);
+      font-size: 2.25rem;
+    }
+    
+    .input-container {
+      width: 100%; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    input {
+      background: #fff;
+      border: 0.5 solid #dbdbe7;
+      padding: 12px 12px;
+      border-radius: 8px;
+      border-color: #193cc7;
+      height: 100px;
+      width: 70%; 
+    }
+    
+    button {
+      border-radius: 8px;
+      border: 0;
+      color: #fff;
+      padding: 14px;
+    } 
+    
+    .add-container {
+      display: flex;
+      justify-content: flex-start;
+    }
+    
+    .add-task {
+      background: #193cc7;
+      width: 300px;
+      margin-top: 2rem;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.35s;
+      outline: none;
+    }
+
+    .add-task:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: -webkit-linear-gradient(to right, #5bd2fa,#F5A9B8, #FFFFFF);
+        background: linear-gradient(to right, #193cc7,#F5A9B8, #cd0fb4);
+        transition: all 0.35s;
+        border-radius: 4px;
+    }
+
+    .add-task:hover {
+      color: rgb(255, 255, 255);
+    }
+    
+    .add-task:hover:after {
+      width: 100%;
+    }
+    
+    
+    .remove-task {
+      background:rgb(81, 79, 230);
+      
+    }
+    
+    main {
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .list-items {
+      list-style: none;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .list-items > li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      border-bottom: 0.7px solid #7e7d7d;
+      width: 60%;
+    }
+      
+    
+    .list-items li div p {
+      font-size: 1.3em;
+      color: #111;
+    }
+
+    /*Botão*/
+
+    .div__btn {
+      text-align: center;
+    }
+
+    .main__btn {
+      font-size: 1.8rem;
+      background: #833ab4;
+      background: #043a5d;
+      padding: 20px 60px;
+      border: none;
+      border-radius: 4px;
+      margin-top: 2rem;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.35s;
+      outline: none;
+    }
+    
+    .main__btn a {
+      position: relative;
+      z-index: 2;;
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .main__btn:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: -webkit-linear-gradient(to right, #5bd2fa,#F5A9B8, #FFFFFF);
+      background: linear-gradient(to right, #193cc7,#F5A9B8, #cd0fb4);
+      transition: all 0.35s;
+      border-radius: 4px;
+    }
+    
+    .main__btn:hover {
+      color: #fff;
+    }
+    
+    .main__btn:hover:after {
+      width: 100%;
+    }
