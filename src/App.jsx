@@ -5,5 +5,5 @@ function App() {
         <ApplicationRoutes />
     )
 }
-
+ 
 export default App

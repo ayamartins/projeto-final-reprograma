@@ -1,30 +1,28 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
 .textos {
+    font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     padding: 8px 350px;
     font-size: 1.5rem;
   }
   
-  .container  {
-    text-align:center;
-  }
-
 h1{
-    margin: -20px;
-    margin-top: 20px;
-    font-size: 2.5rem;
+    margin: 50px;
+    font-size: 2rem;
     text-align:center;
     color:#043a5d;
   }
 
-h3{
-  font-size: 1.5rem;
-  text-align: center;                  
-  color: black;
-} 
-
 p{
-  padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: justify;
+    color: #043a5d; ;
 }
-
-
   

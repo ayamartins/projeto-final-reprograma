@@ -1,0 +1,29 @@
+.section-dados {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    border: 1px solid rgba(3, 8, 48, 0.734);
+    padding: 20px;
+    line-height: 20px;
+    margin: 65px;
+    background-color: antiquewhite;
+    box-shadow: 0px 5px 5px #00000057;
+    width: 80%;
+    font-size: 27px;
+    font-weight: bold;   
+}
+
+.card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+
+.dados p{
+    font-size: 10px;
+}
+
+
+
+

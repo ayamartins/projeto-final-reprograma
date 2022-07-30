@@ -46,7 +46,7 @@ function Comentarios() {
       
       <div className='div__btn'>
       <button class= "main__btn">
-      <a href="#">Faça a sua denúncia!</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSejShwwNf7fpyXEVTcJ13e-AzYml9dicNMQ_-nDexHJ2xNU1g/viewform">Faça a sua denúncia!</a>
       </button>
       </div>
 

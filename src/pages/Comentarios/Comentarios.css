@@ -22,7 +22,7 @@
     input {
       background: #fff;
       border: 0.5 solid #dbdbe7;
-      padding: 12px 12px;
+      padding: 15px px;
       border-radius: 8px;
       border-color: #193cc7;
       height: 100px;
@@ -42,7 +42,7 @@
     }
     
     .add-task {
-      background: #193cc7;
+      background: #043a5d;
       width: 300px;
       margin-top: 2rem;
       cursor: pointer;

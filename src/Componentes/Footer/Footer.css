@@ -1,8 +1,7 @@
 footer {
     background-image: url(../../assets/textura.png);
-    padding: 12px;
-    color:white;
+    padding: 10px;
+    color: #043a5d;
     text-align: center;
-    font-size: 5px; 
+    font-size: 16px;
 }
-

@@ -8,20 +8,17 @@ import './Sobre.css'
 function Sobre() {
     return(
         <>
-            <Header>
-                Sobre mim
-            </Header>
-
-            <main>
-                <div className="imagem">
-                    <img src="https://media.giphy.com/media/bTGggjvpmu9k00paKN/giphy.gif" alt="Imagem da desenvolvedora da página"/>
-                </div>
-                <div className="sobre">
-                    <Textos>
-                    Meu nome é Ayane Martins, tenho 28 anos, sou mineirinha, nascida e criada em Juiz de Fora. Jornalista, formada pela Universidade Federal de Juiz de Fora - UFJF, especialista em Marketing pela Universidade de São Paulo - USP e futura desenvolvedora Front-end pela Reprograma. Sempre gostei muito da área de comunicação, mas vivendo o processo de transição de carreira encontrei na tecnologia uma nova paixão e um mundo de possibilidades.
-                    </Textos>
-                </div>
-             </main>
+        <Header></Header>
+        <div className="minibio">
+            <div className="minibio_img">
+            <img src="../src/assets/ayane.jpg"  className="imagem-ayane" alt="Foto da desenvolvedora do site - Ayane Martins" />
+            </div>
+            <Textos>
+            <p>
+            Meu nome é Ayane Martins, tenho 28 anos, sou mineirinha, nascida e criada em Juiz de Fora. Jornalista, formada pela Universidade Federal de Juiz de Fora - UFJF, especialista em Marketing pela Universidade de São Paulo - USP e futura desenvolvedora Front-end pela Reprograma. Sempre gostei muito da área de comunicação, mas vivendo o processo de transição de carreira encontrei na tecnologia uma nova paixão e um mundo de possibilidades.
+            </p>
+    </Textos>
+        </div>
 
             <section className='card-contato'>
                 <div className='contato'>

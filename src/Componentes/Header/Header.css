@@ -1,10 +1,9 @@
 .header {
-  height: 50rem;
-  width: 100%;
-  background-size: cover;
-  display:  block;
-  align-items: flex-end;
-  justify-content: center;
-  background-position: 0px;
-  background-image: url(../../assets/capasite.png);
-}
+    padding: 70px;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 50px;
+    background-image: url(../../assets/capasitecortada.png);
+    background-position: 50%;
+  }
+
