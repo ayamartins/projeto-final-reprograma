@@ -2,6 +2,7 @@ import Header from '../../Componentes/Header/Header'
 import { BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs'
 import Footer from '../../Componentes/Footer/Footer'
 import Textos from "../../Componentes/Textos/Textos"
+import FotoSobre from '../../assets/ayane.jpg'
 import './Sobre.css'
 
 
@@ -11,7 +12,7 @@ function Sobre() {
         <Header></Header>
         <div className="minibio">
             <div className="minibio_img">
-            <img src="../src/assets/ayane.jpg"  className="imagem-ayane" alt="Foto da desenvolvedora do site - Ayane Martins" />
+            <img src={FotoSobre}  className="imagem-ayane" alt="Foto da desenvolvedora do site - Ayane Martins" />
             </div>
             <Textos>
             <p>

@@ -1,6 +1,7 @@
 import Header from '../../Componentes/Header/Header'
 import Footer from '../../Componentes/Footer/Footer'
 import Texto from '../../Componentes/Textos/Textos'
+import Ilustracao from "../../assets/ilustracaoviolenciag.jpg"
 import './Inicio.css'
 
 function Inicio() {
@@ -22,7 +23,7 @@ function Inicio() {
                     </p>
 
                     <div clasName="foto_inicio">
-                        <img src="../src/assets/ilustracaoviolenciag.jpg"  className="imagem1" alt="Ilustração contra a Violência de gênero no Jornalismo - reprodução internet" />
+                        <img src={Ilustracao} className="imagem1" alt="Ilustração contra a Violência de gênero no Jornalismo - reprodução internet" />
                     </div>
 
                     <p>
