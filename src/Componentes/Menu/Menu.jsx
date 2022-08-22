@@ -15,7 +15,7 @@ function Menu() {
                     <ul className="menu">
 
                         <li className="item">
-                            <Link className="link" to="/">Inicio</Link>
+                            <Link className="link" to="/">Início</Link>
                         </li>
                         <li className="item">
                             <Link className="link" to="/dados">Dados</Link>
